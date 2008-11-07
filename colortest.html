@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>HTML color test for Kiki
+        </title>
+    </head>
+    <body>
+      <b>
+        <font color="#000000">( )</font><br />
+        1.<br />
+        <font color="#0000AA">( )</font><br />
+        <font color="#00AA00">( )</font><br />
+        <font color="#FFAA55">( )</font><br />
+        <font color="#AA0000">( )</font><br />
+        <font color="#00AAAA">( )</font><br />
+        <font color="#AA00AA">( )</font><br />
+        <font color="#AAAAAA">( )</font><br />
+        2.<br />
+        <font color="#0000FF">( )</font><br />
+        <font color="#00FF00">( )</font><br />
+        <font color="#00FFFF">( )</font><br />
+        <font color="#FF0000">( )</font><br />
+        <font color="#DDDD00">( )</font><br />
+        <font color="#FF00FF">( )</font><br />
+        3.<br />
+        <font color="#AAAAFF">( )</font><br />
+        <font color="#FF55AA">( )</font><br />
+        <font color="#AAFF55">( )</font><br />
+        <font color="#FFAAAA">( )</font><br />
+        <font color="#55AAFF">( )</font><br />
+        <font color="#FFAAFF">( )</font><br />
+        4.<br />
+        <font color="#000077">( )</font><br />
+        <font color="#007700">( )</font><br />
+        <font color="#770000">( )</font><br />
+        <font color="#007777">( )</font><br />
+        <font color="#770077">( )</font><br />
+        <font color="#777700">( )</font><br />
+      </b>
+      
+<pre>
+The following code can be used to extract the colors from the HTML code:
+
+import re
+r = re.compile(r"#([0-9]|[A-F])+\"")
+res = r.findall(&lt;&lt;insert html code from above&gt;&gt;)
+for item in res:
+    print '"%s"' % item[0], ",",
+</pre>
+    
+    </body>
+</html>

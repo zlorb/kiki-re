@@ -1,0 +1,5 @@
+- load sample text from disk
+- load sample text from website
+- scintilla control instead of plain text
+- multi-line input: scintilla
+- save before running the regex
