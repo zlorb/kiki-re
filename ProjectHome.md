@@ -1,0 +1,1 @@
+Kiki is a Python/wxPython-based environment for testing regular expressions. Specify a regular expression and a text to match against, and Kiki will highlight the matches using colors and numbers for matched subgroups.
